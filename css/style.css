@@ -1,0 +1,82 @@
+html {
+    background: #3BB4D9;
+    background: -moz-linear-gradient(top, #3BB4D9 0%, #3BD99F 50%, #3BD955 100%);
+    background: -webkit-linear-gradient(top, #3BB4D9 0%, #3BD99F 50%, #3BD955 100%);
+    background: linear-gradient(to bottom, #3BB4D9 0%, #3BD99F 50%, #3BD955 100%);
+}
+
+/*Estilo só para ajudar no exemplo*/
+ul {
+    padding:0;
+}
+body {
+    margin:0;
+}
+/******/
+ .menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.menu ul {
+    font-size: 15px;
+    text-align:center;
+}
+/*só subistitui o margin por text- align:center*/
+ .menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    margin: 0 auto;
+    margin-right: 1%;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+a {
+    color: #fafaed;
+    font-family: "PenultimateLight Regular";
+    font-size: 1.5rem;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.rain {
+    background-color: #6d736f;
+}
+
+.scream {
+    background-color: #f5953b;
+}
+
+.sisters{
+    background-color: #365ea8;
+}
+
+h1 {
+
+    color: #fafaed;
+    text-align: center;
+    font-family: "Spumoni";
+    font-size: 6rem;
+}
+
+
+.box-model {
+    color: #000;
+    border: none;
+    font-size: 1.3rem;
+}
+
